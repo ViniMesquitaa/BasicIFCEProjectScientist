@@ -16,6 +16,7 @@
   - [🎯 Objetivo](#-objetivo)
   - [🚀 Como Usar](#-como-usar)
   - [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+  - [🚀 Melhorias Futuras](#-melhorias-futuras)
 
 
 <!-- About Section -->
