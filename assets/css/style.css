@@ -24,7 +24,7 @@ body {
 .home-page {
   min-height: 100vh;
   opacity: 0;
-  animation: fadeIn 1s ease-out forwards;
+  animation: fadeIn 2s ease-out forwards;
 }
 
 .header {
@@ -101,7 +101,7 @@ body {
 #main-biograph{
   height: 100vh;
   opacity: 0;
-  animation: fadeIn 1s ease-out forwards;
+  animation: fadeIn 2s ease-out forwards;
 }
 
 .title-container h1{
@@ -141,7 +141,6 @@ body {
 .container-biograph{
   display: flex;
   
-  
 }
 
 .figure-bio{
@@ -155,6 +154,82 @@ body {
   width: 100%;
   height: 400px;
   box-shadow: 5px 10px 15px rgb(11, 17, 14);
+}
+
+#saudepublica{
+  min-height: 100vh;
+  animation: fadeIn 2s ease-out forwards;
+}
+
+#container-saude{
+  display: flex;
+}
+
+.header-saude h1{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: aliceblue;
+  font-size: 45px;
+}
+
+.description-saude{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  padding-top: 15px;
+  width: 50%;
+  color: aliceblue;
+}
+
+#img-saude{
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 100%;
+  height: 400px;
+  box-shadow: 5px 10px 15px rgb(11, 17, 14);
+}
+
+.figure-saude{
+  padding-left: 10rem;
+  padding-top: 2rem;
+}
+
+#footer div{
+  width: 100%;
+  background: linear-gradient(90deg, #396346, #090a09);
+  padding: 35px;
+  box-shadow: 5px 10px 15px rgb(11, 17, 14);
+}
+
+#footer p{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer a{
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  text-decoration: none;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#footer span{
+  font-weight: bold;
+  padding-left: 0.5em;
+}
+
+#footer a:hover{
+  color: rgb(131, 136, 131);
+  font-weight: bold;
 }
 
 
